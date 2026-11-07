@@ -1,0 +1,12 @@
+test_expected_record_count (test_numpy_analysis.TestWeek3NumPyAnalysis.test_expected_record_count) ... ok
+test_matrix_shapes (test_numpy_analysis.TestWeek3NumPyAnalysis.test_matrix_shapes) ... ok
+test_monthly_revenue_has_12_values (test_numpy_analysis.TestWeek3NumPyAnalysis.test_monthly_revenue_has_12_values) ... ok
+test_monthly_sum_matches_total (test_numpy_analysis.TestWeek3NumPyAnalysis.test_monthly_sum_matches_total) ... ok
+test_return_rates_are_bounded (test_numpy_analysis.TestWeek3NumPyAnalysis.test_return_rates_are_bounded) ... ok
+test_revenue_is_nonnegative (test_numpy_analysis.TestWeek3NumPyAnalysis.test_revenue_is_nonnegative) ... ok
+test_statistical_results_are_finite (test_numpy_analysis.TestWeek3NumPyAnalysis.test_statistical_results_are_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK

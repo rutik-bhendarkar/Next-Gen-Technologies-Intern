@@ -1,0 +1,13 @@
+test_cleaner_removes_duplicate_dates_and_invalid_dates (test_analysis.TestWeek4Analysis.test_cleaner_removes_duplicate_dates_and_invalid_dates) ... ok
+test_cleaning_fills_missing_values (test_analysis.TestWeek4Analysis.test_cleaning_fills_missing_values) ... ok
+test_duplicate_dates_are_absent (test_analysis.TestWeek4Analysis.test_duplicate_dates_are_absent) ... ok
+test_iqr_report_has_expected_fields (test_analysis.TestWeek4Analysis.test_iqr_report_has_expected_fields) ... ok
+test_missing_values_are_detected (test_analysis.TestWeek4Analysis.test_missing_values_are_detected) ... ok
+test_raw_dataset_shape_and_fields (test_analysis.TestWeek4Analysis.test_raw_dataset_shape_and_fields) ... ok
+test_summary_tables_created (test_analysis.TestWeek4Analysis.test_summary_tables_created) ... ok
+test_time_features_created (test_analysis.TestWeek4Analysis.test_time_features_created) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.051s
+
+OK

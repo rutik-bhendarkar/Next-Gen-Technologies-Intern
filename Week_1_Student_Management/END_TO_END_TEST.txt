@@ -1,0 +1,14 @@
+Week 1 clean end-to-end test result
+
+Flow tested:
+1. Add a new student
+2. Search the student by ID
+3. Update the student
+4. Generate performance summary
+5. Delete the student with confirmation
+6. View remaining records
+7. Exit safely
+
+Result: PASSED
+No traceback occurred.
+All requested operations completed successfully.

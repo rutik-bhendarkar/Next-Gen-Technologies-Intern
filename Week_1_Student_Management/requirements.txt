@@ -1,0 +1,2 @@
+# Week 1 project uses only Python standard-library modules.
+# Recommended Python version: 3.10+

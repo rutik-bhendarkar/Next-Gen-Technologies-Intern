@@ -1,0 +1,13 @@
+feature,category,customers,churned,churn_rate
+ContractType,Month-to-month,264,78,29.545454545454547
+ContractType,One year,116,19,16.379310344827587
+ContractType,Two year,111,9,8.108108108108109
+PaymentMethod,Bank transfer,118,25,21.1864406779661
+PaymentMethod,Credit card,99,22,22.22222222222222
+PaymentMethod,Electronic check,187,40,21.390374331550802
+PaymentMethod,Mailed check,88,18,20.454545454545457
+InternetService,DSL,155,32,20.64516129032258
+InternetService,Fiber optic,242,56,23.140495867768596
+InternetService,No internet,96,18,18.75
+PaperlessBilling,No,127,26,20.47244094488189
+PaperlessBilling,Yes,367,80,21.798365122615802

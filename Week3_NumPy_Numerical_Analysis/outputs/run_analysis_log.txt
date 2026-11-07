@@ -1,0 +1,5 @@
+WEEK 3 NUMPY ANALYSIS COMPLETED
+Records: 120
+Total net revenue: INR 6,797,493.68
+Average net revenue per record: INR 56,645.78
+Outputs saved to: /mnt/data/Week3_NumPy_Numerical_Analysis/outputs

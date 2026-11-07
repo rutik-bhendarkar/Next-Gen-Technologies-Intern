@@ -1,0 +1,13 @@
+{
+  "rows_before": 2284,
+  "duplicate_rows_before": 0,
+  "duplicate_dates_before": 0,
+  "invalid_dates_before": 0,
+  "missing_co2_before": 59,
+  "invalid_date_rows_removed": 0,
+  "duplicate_dates_removed": 0,
+  "rows_after": 2284,
+  "duplicate_rows_removed": 0,
+  "missing_co2_filled": 59,
+  "missing_co2_after": 0
+}

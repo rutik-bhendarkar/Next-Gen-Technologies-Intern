@@ -1,0 +1,214 @@
+{
+  "raw_rows": 508,
+  "analysis_rows": 500,
+  "columns": 11,
+  "duplicate_rows_removed": 8,
+  "churn_rate_percent": 21.4,
+  "visualizations": [
+    "01_target_distribution_count.png",
+    "02_target_class_share.png",
+    "03_missing_values_by_feature.png",
+    "04_numeric_feature_distributions.png",
+    "05_numeric_boxplots.png",
+    "06_categorical_feature_frequencies.png",
+    "07_numeric_features_by_churn.png",
+    "08_monthly_charges_violin_by_churn.png",
+    "09_monthly_charges_by_contract_and_churn.png",
+    "10_churn_rate_by_contracttype.png",
+    "11_churn_rate_by_paymentmethod.png",
+    "12_churn_rate_by_internetservice.png",
+    "13_churn_rate_by_paperlessbilling.png",
+    "14_tenure_vs_total_charges.png",
+    "15_monthly_charges_vs_support_calls.png",
+    "16_correlation_heatmap.png",
+    "17_multivariate_pairplot.png",
+    "18_age_vs_tenure.png",
+    "19_contract_churn_crosstab_heatmap.png"
+  ],
+  "visualization_count": 19,
+  "summary": {
+    "dataset": "Synthetic Customer Churn dataset continued from Week 6",
+    "dataset_origin": "Artificially generated educational data; not real customer data",
+    "audit": {
+      "raw_rows": 508,
+      "raw_columns": 11,
+      "exact_duplicate_rows": 8,
+      "rows_after_exact_deduplication": 500,
+      "raw_missing_by_column": {
+        "CustomerID": 0,
+        "Age": 20,
+        "TenureMonths": 12,
+        "MonthlyCharges": 16,
+        "TotalCharges": 17,
+        "SupportCalls": 14,
+        "ContractType": 9,
+        "PaymentMethod": 8,
+        "InternetService": 7,
+        "PaperlessBilling": 7,
+        "Churn": 0
+      },
+      "invalid_domain_values_marked_missing": {
+        "Age": 2,
+        "TenureMonths": 1,
+        "MonthlyCharges": 1,
+        "TotalCharges": 1,
+        "SupportCalls": 1
+      },
+      "analysis_missing_by_column_after_domain_validation": {
+        "CustomerID": 0,
+        "Age": 20,
+        "TenureMonths": 13,
+        "MonthlyCharges": 16,
+        "TotalCharges": 18,
+        "SupportCalls": 15,
+        "ContractType": 9,
+        "PaymentMethod": 8,
+        "InternetService": 7,
+        "PaperlessBilling": 6,
+        "Churn": 0
+      }
+    },
+    "target_distribution": {
+      "No": 393,
+      "Yes": 107
+    },
+    "target_churn_rate_percent": 21.4,
+    "numeric_correlations": {
+      "Age": {
+        "Age": 1.0,
+        "TenureMonths": 0.03139,
+        "MonthlyCharges": 0.038716,
+        "TotalCharges": 0.068878,
+        "SupportCalls": 0.048536,
+        "ChurnBinary": -0.025952
+      },
+      "TenureMonths": {
+        "Age": 0.03139,
+        "TenureMonths": 1.0,
+        "MonthlyCharges": 0.023466,
+        "TotalCharges": 0.739048,
+        "SupportCalls": 0.007267,
+        "ChurnBinary": -0.170789
+      },
+      "MonthlyCharges": {
+        "Age": 0.038716,
+        "TenureMonths": 0.023466,
+        "MonthlyCharges": 1.0,
+        "TotalCharges": 0.565113,
+        "SupportCalls": 0.008292,
+        "ChurnBinary": 0.141497
+      },
+      "TotalCharges": {
+        "Age": 0.068878,
+        "TenureMonths": 0.739048,
+        "MonthlyCharges": 0.565113,
+        "TotalCharges": 1.0,
+        "SupportCalls": 0.036102,
+        "ChurnBinary": -0.003374
+      },
+      "SupportCalls": {
+        "Age": 0.048536,
+        "TenureMonths": 0.007267,
+        "MonthlyCharges": 0.008292,
+        "TotalCharges": 0.036102,
+        "SupportCalls": 1.0,
+        "ChurnBinary": 0.100594
+      },
+      "ChurnBinary": {
+        "Age": -0.025952,
+        "TenureMonths": -0.170789,
+        "MonthlyCharges": 0.141497,
+        "TotalCharges": -0.003374,
+        "SupportCalls": 0.100594,
+        "ChurnBinary": 1.0
+      }
+    },
+    "churn_rates_by_category": [
+      {
+        "feature": "ContractType",
+        "category": "Month-to-month",
+        "customers": 264,
+        "churned": 78,
+        "churn_rate": 29.545454545454547
+      },
+      {
+        "feature": "ContractType",
+        "category": "One year",
+        "customers": 116,
+        "churned": 19,
+        "churn_rate": 16.379310344827587
+      },
+      {
+        "feature": "ContractType",
+        "category": "Two year",
+        "customers": 111,
+        "churned": 9,
+        "churn_rate": 8.108108108108109
+      },
+      {
+        "feature": "PaymentMethod",
+        "category": "Bank transfer",
+        "customers": 118,
+        "churned": 25,
+        "churn_rate": 21.1864406779661
+      },
+      {
+        "feature": "PaymentMethod",
+        "category": "Credit card",
+        "customers": 99,
+        "churned": 22,
+        "churn_rate": 22.22222222222222
+      },
+      {
+        "feature": "PaymentMethod",
+        "category": "Electronic check",
+        "customers": 187,
+        "churned": 40,
+        "churn_rate": 21.390374331550802
+      },
+      {
+        "feature": "PaymentMethod",
+        "category": "Mailed check",
+        "customers": 88,
+        "churned": 18,
+        "churn_rate": 20.454545454545457
+      },
+      {
+        "feature": "InternetService",
+        "category": "DSL",
+        "customers": 155,
+        "churned": 32,
+        "churn_rate": 20.64516129032258
+      },
+      {
+        "feature": "InternetService",
+        "category": "Fiber optic",
+        "customers": 242,
+        "churned": 56,
+        "churn_rate": 23.140495867768596
+      },
+      {
+        "feature": "InternetService",
+        "category": "No internet",
+        "customers": 96,
+        "churned": 18,
+        "churn_rate": 18.75
+      },
+      {
+        "feature": "PaperlessBilling",
+        "category": "No",
+        "customers": 127,
+        "churned": 26,
+        "churn_rate": 20.47244094488189
+      },
+      {
+        "feature": "PaperlessBilling",
+        "category": "Yes",
+        "customers": 367,
+        "churned": 80,
+        "churn_rate": 21.798365122615802
+      }
+    ],
+    "interpretation_warning": "Patterns are descriptive and reflect synthetic label-generation logic; they are not causal or production evidence."
+  }
+}

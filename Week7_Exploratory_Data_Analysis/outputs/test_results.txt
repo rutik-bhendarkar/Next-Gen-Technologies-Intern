@@ -1,0 +1,13 @@
+test_category_churn_rates_are_bounded (test_eda.TestWeek7EDA.test_category_churn_rates_are_bounded) ... ok
+test_chi_square_table_generated (test_eda.TestWeek7EDA.test_chi_square_table_generated) ... ok
+test_domain_invalid_values_marked_missing (test_eda.TestWeek7EDA.test_domain_invalid_values_marked_missing) ... ok
+test_exact_duplicates_removed (test_eda.TestWeek7EDA.test_exact_duplicates_removed) ... ok
+test_outlier_summary_is_valid (test_eda.TestWeek7EDA.test_outlier_summary_is_valid) ... ok
+test_raw_dataset_dimensions (test_eda.TestWeek7EDA.test_raw_dataset_dimensions) ... ok
+test_statistics_cover_all_numeric_features (test_eda.TestWeek7EDA.test_statistics_cover_all_numeric_features) ... ok
+test_target_has_expected_labels (test_eda.TestWeek7EDA.test_target_has_expected_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.043s
+
+OK

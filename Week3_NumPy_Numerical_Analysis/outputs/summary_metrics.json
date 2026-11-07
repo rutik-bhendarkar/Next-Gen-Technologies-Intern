@@ -1,0 +1,18 @@
+{
+  "dataset": "Synthetic retail sales dataset",
+  "record_count": 120,
+  "total_units_sold": 5305,
+  "total_net_revenue_inr": 6797493.6763,
+  "overall_return_rate": 0.04410933081998115,
+  "statistics": {
+    "mean_net_revenue_inr": 56645.78063583334,
+    "median_net_revenue_inr": 53138.6944,
+    "variance_net_revenue_inr_squared": 743075283.3335856,
+    "std_dev_net_revenue_inr": 27259.407244721693,
+    "90th_percentile_net_revenue_inr": 97192.61064000001,
+    "minimum_net_revenue_inr": 12133.079999999998,
+    "maximum_net_revenue_inr": 136070.9598
+  },
+  "highest_revenue_month": 11,
+  "lowest_revenue_month": 1
+}

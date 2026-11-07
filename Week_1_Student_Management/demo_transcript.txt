@@ -1,0 +1,285 @@
+===== 01_menu_and_records =====
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Student Records ---
+----------------------------------------------------------
+ID         : STU001
+Name       : Aarav Sharma
+Age        : 21
+Course     : B.Tech Information Technology
+Marks      :
+  Python        : 88
+  Mathematics   : 91
+  Statistics    : 84
+  Data Science  : 89
+  AI/ML         : 93
+Total Marks: 445/500
+Percentage : 89.00%
+Grade      : A
+----------------------------------------------------------
+ID         : STU002
+Name       : Priya Patil
+Age        : 20
+Course     : B.Tech Artificial Intelligence
+Marks      :
+  Python        : 95
+  Mathematics   : 92
+  Statistics    : 94
+  Data Science  : 96
+  AI/ML         : 97
+Total Marks: 474/500
+Percentage : 94.80%
+Grade      : A+
+----------------------------------------------------------
+ID         : STU003
+Name       : Vivek Joshi
+Age        : 22
+Course     : B.Tech Computer Engineering
+Marks      :
+  Python        : 71
+  Mathematics   : 68
+  Statistics    : 74
+  Data Science  : 70
+  AI/ML         : 76
+Total Marks: 359/500
+Percentage : 71.80%
+Grade      : B
+----------------------------------------------------------
+Total students: 3
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): Thank you for using the Student Management System.
+
+===== 02_search_and_summary =====
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Search Student ---
+Enter student ID or name: Found 1 student(s).
+----------------------------------------------------------
+ID         : STU002
+Name       : Priya Patil
+Age        : 20
+Course     : B.Tech Artificial Intelligence
+Marks      :
+  Python        : 95
+  Mathematics   : 92
+  Statistics    : 94
+  Data Science  : 96
+  AI/ML         : 97
+Total Marks: 474/500
+Percentage : 94.80%
+Grade      : A+
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Performance Summary ---
+Top Student    : Priya Patil (94.80%, Grade A+)
+Lowest Student : Vivek Joshi (71.80%, Grade B)
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): Thank you for using the Student Management System.
+
+===== 03_update_record =====
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Update Student ---
+Enter student ID to update: Press Enter to keep the current text value.
+Name [Aarav Sharma]: Age [21]: Course [B.Tech Information Technology]: Enter new marks, or press Enter to keep each current mark.
+Enter Python marks [88] (0-100): Enter Mathematics marks [91] (0-100): Enter Statistics marks [84] (0-100): Enter Data Science marks [89] (0-100): Enter AI/ML marks [93] (0-100): Student updated successfully and saved.
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+Program terminated safely.
+
+===== 04_delete_record =====
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Delete Student ---
+Enter student ID to delete: Delete Vivek Joshi (STU003)? [y/N]: Student deleted successfully and saved.
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Student Records ---
+----------------------------------------------------------
+ID         : STU001
+Name       : Aarav Sharma
+Age        : 21
+Course     : B.Tech Information Technology
+Marks      :
+  Python        : 88
+  Mathematics   : 91
+  Statistics    : 84
+  Data Science  : 89
+  AI/ML         : 93
+Total Marks: 445/500
+Percentage : 89.00%
+Grade      : A
+----------------------------------------------------------
+ID         : STU002
+Name       : Priya Patil
+Age        : 20
+Course     : B.Tech Artificial Intelligence
+Marks      :
+  Python        : 95
+  Mathematics   : 92
+  Statistics    : 94
+  Data Science  : 96
+  AI/ML         : 97
+Total Marks: 474/500
+Percentage : 94.80%
+Grade      : A+
+----------------------------------------------------------
+Total students: 2
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): Thank you for using the Student Management System.
+
+===== 05_invalid_input_handling =====
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): Invalid choice. Please select a number from 1 to 7.
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+--- Add Student ---
+Enter student ID: Enter student name: Enter age (1-100): Invalid input: invalid literal for int() with base 10: 'abc'
+Enter age (1-100): Enter course: Enter Python marks (0-100): Invalid marks: Marks must be between 0 and 100.
+Enter Python marks (0-100): Enter Mathematics marks (0-100): Enter Statistics marks (0-100): Enter Data Science marks (0-100): Enter AI/ML marks (0-100): Student added successfully and saved to students.json.
+
+==========================================================
+        STUDENT MANAGEMENT SYSTEM - WEEK 1
+==========================================================
+1. Add student
+2. View students
+3. Search student
+4. Update student
+5. Delete student
+6. Performance summary
+7. Exit
+==========================================================
+Enter your choice (1-7): 
+Program terminated safely.

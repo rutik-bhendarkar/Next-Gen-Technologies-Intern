@@ -1,0 +1,129 @@
+{
+  "project": "Week 2 - Advanced Python Data Management",
+  "source_file": "data/students.csv",
+  "records_read": 12,
+  "valid_records": 12,
+  "selected_records": 12,
+  "skipped_records": 0,
+  "overall_average": 80.53,
+  "overall_median": 82.67,
+  "subject_averages": {
+    "python": 80.33,
+    "sql": 80.92,
+    "statistics": 80.33
+  },
+  "grade_distribution": {
+    "A+": 1,
+    "A": 6,
+    "B": 3,
+    "C": 2,
+    "D": 0,
+    "F": 0
+  },
+  "department_counts": {
+    "AI-DS": 3,
+    "CSE": 4,
+    "IT": 5
+  },
+  "top_students": [
+    {
+      "student_id": "STU004",
+      "name": "Isha Kulkarni",
+      "email": "isha.kulkarni@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 95.0,
+      "sql": 94.0,
+      "statistics": 97.0,
+      "average": 95.33,
+      "grade": "A+"
+    },
+    {
+      "student_id": "STU010",
+      "name": "Diya Bhosale",
+      "email": "diya.bhosale@example.com",
+      "department": "IT",
+      "year": 3,
+      "python": 90.0,
+      "sql": 86.0,
+      "statistics": 92.0,
+      "average": 89.33,
+      "grade": "A"
+    },
+    {
+      "student_id": "STU002",
+      "name": "Ananya Deshmukh",
+      "email": "ananya.deshmukh@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 86.0,
+      "sql": 92.0,
+      "statistics": 89.0,
+      "average": 89.0,
+      "grade": "A"
+    },
+    {
+      "student_id": "STU001",
+      "name": "Aarav Patil",
+      "email": "aarav.patil@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 91.0,
+      "sql": 88.0,
+      "statistics": 85.0,
+      "average": 88.0,
+      "grade": "A"
+    },
+    {
+      "student_id": "STU006",
+      "name": "Saanvi More",
+      "email": "saanvi.more@example.com",
+      "department": "AI-DS",
+      "year": 4,
+      "python": 88.0,
+      "sql": 84.0,
+      "statistics": 90.0,
+      "average": 87.33,
+      "grade": "A"
+    }
+  ],
+  "students_needing_support": [
+    {
+      "student_id": "STU009",
+      "name": "Arjun Kulkarni",
+      "email": "arjun.kulkarni@example.com",
+      "department": "CSE",
+      "year": 4,
+      "python": 58.0,
+      "sql": 64.0,
+      "statistics": 61.0,
+      "average": 61.0,
+      "grade": "C"
+    },
+    {
+      "student_id": "STU005",
+      "name": "Aditya Joshi",
+      "email": "aditya.joshi@example.com",
+      "department": "CSE",
+      "year": 3,
+      "python": 67.0,
+      "sql": 72.0,
+      "statistics": 69.0,
+      "average": 69.33,
+      "grade": "C"
+    },
+    {
+      "student_id": "STU011",
+      "name": "Kabir Mehta",
+      "email": "kabir.mehta@example.com",
+      "department": "AI-DS",
+      "year": 2,
+      "python": 74.0,
+      "sql": 68.0,
+      "statistics": 72.0,
+      "average": 71.33,
+      "grade": "B"
+    }
+  ],
+  "import_errors": []
+}

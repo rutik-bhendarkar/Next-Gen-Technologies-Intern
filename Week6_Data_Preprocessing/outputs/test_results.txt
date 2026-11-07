@@ -1,0 +1,10 @@
+test_domain_validation (test_preprocessing.TestWeek6Preprocessing.test_domain_validation) ... ok
+test_duplicate_removal (test_preprocessing.TestWeek6Preprocessing.test_duplicate_removal) ... ok
+test_full_pipeline (test_preprocessing.TestWeek6Preprocessing.test_full_pipeline) ... ok
+test_iqr_clipper_caps_extreme_value (test_preprocessing.TestWeek6Preprocessing.test_iqr_clipper_caps_extreme_value) ... ok
+test_minmax_output_bounded (test_preprocessing.TestWeek6Preprocessing.test_minmax_output_bounded) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.113s
+
+OK

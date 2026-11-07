@@ -1,0 +1,50 @@
+[
+    {
+        "student_id": "STU001",
+        "name": "Aarav Sharma",
+        "age": 21,
+        "course": "B.Tech Information Technology",
+        "marks": {
+            "Python": 88.0,
+            "Mathematics": 91.0,
+            "Statistics": 84.0,
+            "Data Science": 89.0,
+            "AI/ML": 93.0
+        },
+        "total_marks": 445.0,
+        "percentage": 89.0,
+        "grade": "A"
+    },
+    {
+        "student_id": "STU002",
+        "name": "Priya Patil",
+        "age": 20,
+        "course": "B.Tech Artificial Intelligence",
+        "marks": {
+            "Python": 95.0,
+            "Mathematics": 92.0,
+            "Statistics": 94.0,
+            "Data Science": 96.0,
+            "AI/ML": 97.0
+        },
+        "total_marks": 474.0,
+        "percentage": 94.8,
+        "grade": "A+"
+    },
+    {
+        "student_id": "STU003",
+        "name": "Vivek Joshi",
+        "age": 22,
+        "course": "B.Tech Computer Engineering",
+        "marks": {
+            "Python": 71.0,
+            "Mathematics": 68.0,
+            "Statistics": 74.0,
+            "Data Science": 70.0,
+            "AI/ML": 76.0
+        },
+        "total_marks": 359.0,
+        "percentage": 71.8,
+        "grade": "B"
+    }
+]

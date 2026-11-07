@@ -1,0 +1,101 @@
+{
+  "dataset": "Synthetic customer churn dataset for educational preprocessing practice",
+  "random_seed": 20261105,
+  "target_mapping": {
+    "No": 0,
+    "Yes": 1
+  },
+  "id_column_excluded": "CustomerID",
+  "numeric_features": [
+    "Age",
+    "TenureMonths",
+    "MonthlyCharges",
+    "TotalCharges",
+    "SupportCalls"
+  ],
+  "categorical_features": [
+    "ContractType",
+    "PaymentMethod",
+    "InternetService",
+    "PaperlessBilling"
+  ],
+  "rows_after_duplicate_removal": 500,
+  "duplicate_report": {
+    "rows_before": 508,
+    "rows_after": 500,
+    "duplicates_removed": 8
+  },
+  "invalid_values_replaced_with_missing": {
+    "Age": 2,
+    "TenureMonths": 1,
+    "MonthlyCharges": 1,
+    "TotalCharges": 1,
+    "SupportCalls": 1
+  },
+  "iqr_outlier_audit": [
+    {
+      "feature": "Age",
+      "q1": 32.0,
+      "q3": 51.0,
+      "lower_bound": 3.5,
+      "upper_bound": 79.5,
+      "outlier_count": 3
+    },
+    {
+      "feature": "TenureMonths",
+      "q1": 16.0,
+      "q3": 52.0,
+      "lower_bound": -38.0,
+      "upper_bound": 106.0,
+      "outlier_count": 0
+    },
+    {
+      "feature": "MonthlyCharges",
+      "q1": 40.6225,
+      "q3": 95.31,
+      "lower_bound": -41.40875,
+      "upper_bound": 177.34125,
+      "outlier_count": 2
+    },
+    {
+      "feature": "TotalCharges",
+      "q1": 887.0425,
+      "q3": 3696.1175,
+      "lower_bound": -3326.5699999999993,
+      "upper_bound": 7909.73,
+      "outlier_count": 8
+    },
+    {
+      "feature": "SupportCalls",
+      "q1": 1.0,
+      "q3": 3.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outlier_count": 5
+    }
+  ],
+  "split": {
+    "method": "stratified train_test_split",
+    "test_size": 0.2,
+    "random_state": 42,
+    "train_rows": 400,
+    "test_rows": 100
+  },
+  "preprocessing_outputs": {
+    "standard": {
+      "train_rows": 400,
+      "test_rows": 100,
+      "feature_count": 17,
+      "train_file": "train_processed_standard.csv",
+      "test_file": "test_processed_standard.csv"
+    },
+    "minmax": {
+      "train_rows": 400,
+      "test_rows": 100,
+      "feature_count": 17,
+      "train_file": "train_processed_minmax.csv",
+      "test_file": "test_processed_minmax.csv"
+    }
+  },
+  "leakage_prevention": "Imputers, IQR clipping bounds, category vocabularies and scalers are fitted on training data only. Test data is transform-only."
+}

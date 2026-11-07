@@ -1,0 +1,103 @@
+{
+  "project": "Week 2 - Advanced Python Data Management",
+  "source_file": "data/students.csv",
+  "records_read": 12,
+  "valid_records": 12,
+  "selected_records": 4,
+  "skipped_records": 0,
+  "overall_average": 90.42,
+  "overall_median": 89.17,
+  "subject_averages": {
+    "python": 90.5,
+    "sql": 90.0,
+    "statistics": 90.75
+  },
+  "grade_distribution": {
+    "A+": 1,
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "F": 0
+  },
+  "department_counts": {
+    "IT": 4
+  },
+  "top_students": [
+    {
+      "student_id": "STU004",
+      "name": "Isha Kulkarni",
+      "email": "isha.kulkarni@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 95.0,
+      "sql": 94.0,
+      "statistics": 97.0,
+      "average": 95.33,
+      "grade": "A+"
+    },
+    {
+      "student_id": "STU010",
+      "name": "Diya Bhosale",
+      "email": "diya.bhosale@example.com",
+      "department": "IT",
+      "year": 3,
+      "python": 90.0,
+      "sql": 86.0,
+      "statistics": 92.0,
+      "average": 89.33,
+      "grade": "A"
+    },
+    {
+      "student_id": "STU002",
+      "name": "Ananya Deshmukh",
+      "email": "ananya.deshmukh@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 86.0,
+      "sql": 92.0,
+      "statistics": 89.0,
+      "average": 89.0,
+      "grade": "A"
+    }
+  ],
+  "students_needing_support": [
+    {
+      "student_id": "STU001",
+      "name": "Aarav Patil",
+      "email": "aarav.patil@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 91.0,
+      "sql": 88.0,
+      "statistics": 85.0,
+      "average": 88.0,
+      "grade": "A"
+    },
+    {
+      "student_id": "STU002",
+      "name": "Ananya Deshmukh",
+      "email": "ananya.deshmukh@example.com",
+      "department": "IT",
+      "year": 4,
+      "python": 86.0,
+      "sql": 92.0,
+      "statistics": 89.0,
+      "average": 89.0,
+      "grade": "A"
+    },
+    {
+      "student_id": "STU010",
+      "name": "Diya Bhosale",
+      "email": "diya.bhosale@example.com",
+      "department": "IT",
+      "year": 3,
+      "python": 90.0,
+      "sql": 86.0,
+      "statistics": 92.0,
+      "average": 89.33,
+      "grade": "A"
+    }
+  ],
+  "import_errors": []
+}

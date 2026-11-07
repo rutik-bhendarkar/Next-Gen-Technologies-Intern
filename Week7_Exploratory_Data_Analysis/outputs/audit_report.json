@@ -1,0 +1,39 @@
+{
+  "raw_rows": 508,
+  "raw_columns": 11,
+  "exact_duplicate_rows": 8,
+  "rows_after_exact_deduplication": 500,
+  "raw_missing_by_column": {
+    "CustomerID": 0,
+    "Age": 20,
+    "TenureMonths": 12,
+    "MonthlyCharges": 16,
+    "TotalCharges": 17,
+    "SupportCalls": 14,
+    "ContractType": 9,
+    "PaymentMethod": 8,
+    "InternetService": 7,
+    "PaperlessBilling": 7,
+    "Churn": 0
+  },
+  "invalid_domain_values_marked_missing": {
+    "Age": 2,
+    "TenureMonths": 1,
+    "MonthlyCharges": 1,
+    "TotalCharges": 1,
+    "SupportCalls": 1
+  },
+  "analysis_missing_by_column_after_domain_validation": {
+    "CustomerID": 0,
+    "Age": 20,
+    "TenureMonths": 13,
+    "MonthlyCharges": 16,
+    "TotalCharges": 18,
+    "SupportCalls": 15,
+    "ContractType": 9,
+    "PaymentMethod": 8,
+    "InternetService": 7,
+    "PaperlessBilling": 6,
+    "Churn": 0
+  }
+}

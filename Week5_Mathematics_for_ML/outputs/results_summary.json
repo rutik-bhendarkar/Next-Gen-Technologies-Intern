@@ -1,0 +1,71 @@
+{
+  "dataset": {
+    "rows": 12,
+    "columns": 5,
+    "file": "data/student_performance.csv"
+  },
+  "exam_score_statistics": {
+    "count": 12,
+    "minimum": 67.0,
+    "maximum": 95.0,
+    "range": 28.0,
+    "mean": 82.5,
+    "median": 85.0,
+    "mode": [
+      85.0
+    ],
+    "population_variance": 71.58333333333333,
+    "population_standard_deviation": 8.460693430998036,
+    "sample_variance": 78.0909090909091,
+    "sample_standard_deviation": 8.836906081367454
+  },
+  "study_hours_statistics": {
+    "count": 12,
+    "minimum": 1.5,
+    "maximum": 5.0,
+    "range": 3.5,
+    "mean": 3.133333333333333,
+    "median": 3.1,
+    "mode": [
+      1.5,
+      1.8,
+      2.0,
+      2.5,
+      2.8,
+      3.0,
+      3.2,
+      3.5,
+      3.8,
+      4.0,
+      4.5,
+      5.0
+    ],
+    "population_variance": 1.078888888888889,
+    "population_standard_deviation": 1.0386957633921923,
+    "sample_variance": 1.176969696969697,
+    "sample_standard_deviation": 1.0848823424545617
+  },
+  "attendance_statistics": {
+    "count": 12,
+    "minimum": 75.0,
+    "maximum": 99.0,
+    "range": 24.0,
+    "mean": 90.08333333333333,
+    "median": 93.5,
+    "mode": [
+      95.0
+    ],
+    "population_variance": 61.07638888888889,
+    "population_standard_deviation": 7.815138443360354,
+    "sample_variance": 66.62878787878789,
+    "sample_standard_deviation": 8.16264588713659
+  },
+  "probability_score_at_least_85": 0.5833333333333334,
+  "probability_attendance_at_least_90": 0.6666666666666666,
+  "interpretation": [
+    "The exam score mean and median summarize the centre of the sample.",
+    "The mode identifies the most frequently observed exam score; ties are returned together.",
+    "Population and sample variance use different denominators (n versus n-1).",
+    "Empirical probability is the observed proportion in this small educational dataset, not a guarantee about future students."
+  ]
+}

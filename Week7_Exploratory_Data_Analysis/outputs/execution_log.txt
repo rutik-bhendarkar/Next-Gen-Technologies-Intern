@@ -1,0 +1,11 @@
+
+WEEK 7 — EXPLORATORY DATA ANALYSIS
+================================================
+Raw rows: 508
+Analysis rows after exact duplicate removal: 500
+Duplicate rows removed: 8
+Churn rate: 21.40%
+Visualizations generated: 19
+Report: reports/Week7_EDA_Report.md
+Tables: outputs/tables/
+Figures: outputs/figures/

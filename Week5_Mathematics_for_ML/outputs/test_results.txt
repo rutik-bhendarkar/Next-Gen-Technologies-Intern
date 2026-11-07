@@ -1,0 +1,17 @@
+test_matrix_add_transpose (test_math_operations.TestLinearAlgebra.test_matrix_add_transpose) ... ok
+test_matrix_multiply (test_math_operations.TestLinearAlgebra.test_matrix_multiply) ... ok
+test_shape_errors (test_math_operations.TestLinearAlgebra.test_shape_errors) ... ok
+test_vector_operations (test_math_operations.TestLinearAlgebra.test_vector_operations) ... ok
+test_empty_rejected (test_math_operations.TestStatistics.test_empty_rejected) ... ok
+test_invalid_probability (test_math_operations.TestStatistics.test_invalid_probability) ... ok
+test_median_odd_even (test_math_operations.TestStatistics.test_median_odd_even) ... ok
+test_mode_tie (test_math_operations.TestStatistics.test_mode_tie) ... ok
+test_probability (test_math_operations.TestStatistics.test_probability) ... ok
+test_std (test_math_operations.TestStatistics.test_std) ... ok
+test_sum_mean (test_math_operations.TestStatistics.test_sum_mean) ... ok
+test_variance_population_and_sample (test_math_operations.TestStatistics.test_variance_population_and_sample) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+OK

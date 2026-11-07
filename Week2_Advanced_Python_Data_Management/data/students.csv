@@ -1,0 +1,13 @@
+student_id,name,email,department,year,python,sql,statistics
+STU001,Aarav Patil,aarav.patil@example.com,IT,4,91,88,85
+STU002,Ananya Deshmukh,ananya.deshmukh@example.com,IT,4,86,92,89
+STU003,Vivaan Shah,vivaan.shah@example.com,CSE,3,78,81,74
+STU004,Isha Kulkarni,isha.kulkarni@example.com,IT,4,95,94,97
+STU005,Aditya Joshi,aditya.joshi@example.com,CSE,3,67,72,69
+STU006,Saanvi More,saanvi.more@example.com,AI-DS,4,88,84,90
+STU007,Reyansh Pawar,reyansh.pawar@example.com,IT,2,72,76,70
+STU008,Myra Nair,myra.nair@example.com,AI-DS,3,82,79,85
+STU009,Arjun Kulkarni,arjun.kulkarni@example.com,CSE,4,58,64,61
+STU010,Diya Bhosale,diya.bhosale@example.com,IT,3,90,86,92
+STU011,Kabir Mehta,kabir.mehta@example.com,AI-DS,2,74,68,72
+STU012,Anvi Jadhav,anvi.jadhav@example.com,CSE,4,83,87,80

@@ -1,0 +1,122 @@
+[
+  {
+    "student_id": "STU001",
+    "name": "Aarav Patil",
+    "email": "aarav.patil@example.com",
+    "department": "IT",
+    "year": "4",
+    "python": "91",
+    "sql": "88",
+    "statistics": "85"
+  },
+  {
+    "student_id": "STU002",
+    "name": "Ananya Deshmukh",
+    "email": "ananya.deshmukh@example.com",
+    "department": "IT",
+    "year": "4",
+    "python": "86",
+    "sql": "92",
+    "statistics": "89"
+  },
+  {
+    "student_id": "STU003",
+    "name": "Vivaan Shah",
+    "email": "vivaan.shah@example.com",
+    "department": "CSE",
+    "year": "3",
+    "python": "78",
+    "sql": "81",
+    "statistics": "74"
+  },
+  {
+    "student_id": "STU004",
+    "name": "Isha Kulkarni",
+    "email": "isha.kulkarni@example.com",
+    "department": "IT",
+    "year": "4",
+    "python": "95",
+    "sql": "94",
+    "statistics": "97"
+  },
+  {
+    "student_id": "STU005",
+    "name": "Aditya Joshi",
+    "email": "aditya.joshi@example.com",
+    "department": "CSE",
+    "year": "3",
+    "python": "67",
+    "sql": "72",
+    "statistics": "69"
+  },
+  {
+    "student_id": "STU006",
+    "name": "Saanvi More",
+    "email": "saanvi.more@example.com",
+    "department": "AI-DS",
+    "year": "4",
+    "python": "88",
+    "sql": "84",
+    "statistics": "90"
+  },
+  {
+    "student_id": "STU007",
+    "name": "Reyansh Pawar",
+    "email": "reyansh.pawar@example.com",
+    "department": "IT",
+    "year": "2",
+    "python": "72",
+    "sql": "76",
+    "statistics": "70"
+  },
+  {
+    "student_id": "STU008",
+    "name": "Myra Nair",
+    "email": "myra.nair@example.com",
+    "department": "AI-DS",
+    "year": "3",
+    "python": "82",
+    "sql": "79",
+    "statistics": "85"
+  },
+  {
+    "student_id": "STU009",
+    "name": "Arjun Kulkarni",
+    "email": "arjun.kulkarni@example.com",
+    "department": "CSE",
+    "year": "4",
+    "python": "58",
+    "sql": "64",
+    "statistics": "61"
+  },
+  {
+    "student_id": "STU010",
+    "name": "Diya Bhosale",
+    "email": "diya.bhosale@example.com",
+    "department": "IT",
+    "year": "3",
+    "python": "90",
+    "sql": "86",
+    "statistics": "92"
+  },
+  {
+    "student_id": "STU011",
+    "name": "Kabir Mehta",
+    "email": "kabir.mehta@example.com",
+    "department": "AI-DS",
+    "year": "2",
+    "python": "74",
+    "sql": "68",
+    "statistics": "72"
+  },
+  {
+    "student_id": "STU012",
+    "name": "Anvi Jadhav",
+    "email": "anvi.jadhav@example.com",
+    "department": "CSE",
+    "year": "4",
+    "python": "83",
+    "sql": "87",
+    "statistics": "80"
+  }
+]

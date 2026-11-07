@@ -1,0 +1,13 @@
+student_id,name,email,department,year,python,sql,statistics,average,grade
+STU004,Isha Kulkarni,isha.kulkarni@example.com,IT,4,95.0,94.0,97.0,95.33,A+
+STU010,Diya Bhosale,diya.bhosale@example.com,IT,3,90.0,86.0,92.0,89.33,A
+STU002,Ananya Deshmukh,ananya.deshmukh@example.com,IT,4,86.0,92.0,89.0,89.0,A
+STU001,Aarav Patil,aarav.patil@example.com,IT,4,91.0,88.0,85.0,88.0,A
+STU006,Saanvi More,saanvi.more@example.com,AI-DS,4,88.0,84.0,90.0,87.33,A
+STU012,Anvi Jadhav,anvi.jadhav@example.com,CSE,4,83.0,87.0,80.0,83.33,A
+STU008,Myra Nair,myra.nair@example.com,AI-DS,3,82.0,79.0,85.0,82.0,A
+STU003,Vivaan Shah,vivaan.shah@example.com,CSE,3,78.0,81.0,74.0,77.67,B
+STU007,Reyansh Pawar,reyansh.pawar@example.com,IT,2,72.0,76.0,70.0,72.67,B
+STU011,Kabir Mehta,kabir.mehta@example.com,AI-DS,2,74.0,68.0,72.0,71.33,B
+STU005,Aditya Joshi,aditya.joshi@example.com,CSE,3,67.0,72.0,69.0,69.33,C
+STU009,Arjun Kulkarni,arjun.kulkarni@example.com,CSE,4,58.0,64.0,61.0,61.0,C

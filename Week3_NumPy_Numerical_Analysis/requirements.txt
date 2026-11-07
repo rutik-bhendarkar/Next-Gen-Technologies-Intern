@@ -1,0 +1,4 @@
+numpy>=1.24
+notebook>=7.0
+nbformat>=5.9
+nbclient>=0.9

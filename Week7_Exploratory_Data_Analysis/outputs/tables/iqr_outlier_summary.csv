@@ -1,0 +1,6 @@
+feature,q1,q3,iqr,lower_fence,upper_fence,potential_outlier_count,potential_outlier_percent_of_non_missing,non_missing_count
+Age,32.0,51.0,19.0,3.5,79.5,3,0.625,480
+TenureMonths,16.0,52.0,36.0,-38.0,106.0,0,0.0,487
+MonthlyCharges,40.6225,95.31,54.6875,-41.40875,177.34125,2,0.4132231404958678,484
+TotalCharges,887.0425,3696.1175,2809.075,-3326.5699999999993,7909.73,8,1.6597510373443984,482
+SupportCalls,1.0,3.0,2.0,-2.0,6.0,5,1.0309278350515463,485

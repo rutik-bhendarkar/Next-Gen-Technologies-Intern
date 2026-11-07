@@ -1,0 +1,10 @@
+test_dataset_rows_and_columns (test_week8.TestWeek8.test_dataset_rows_and_columns) ... ok
+test_metrics_exist_and_are_nonnegative (test_week8.TestWeek8.test_metrics_exist_and_are_nonnegative) ... ok
+test_predictions_finite (test_week8.TestWeek8.test_predictions_finite) ... ok
+test_r2_reasonable_for_synthetic_data (test_week8.TestWeek8.test_r2_reasonable_for_synthetic_data) ... ok
+test_train_test_sizes (test_week8.TestWeek8.test_train_test_sizes) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
